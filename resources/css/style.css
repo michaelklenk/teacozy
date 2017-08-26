@@ -38,3 +38,32 @@ nav {
 nav a {
   color: seashell;
 }
+
+main {
+  display: flex;
+  padding-top: 70px;
+  flex-direction: column;
+}
+
+.section-1 {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 110px;
+  width: 1200px;
+}
+
+.mission h2 {
+  padding-bottom: 20px;
+}
