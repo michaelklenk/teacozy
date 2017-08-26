@@ -18,6 +18,10 @@ header {
   height: 69px;
   align-items: center;
   justify-content: space-between;
+  background-color: inherit;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
 .logo img {
@@ -27,8 +31,8 @@ header {
 
 nav {
   display: flex;
-  width: 500px;
   justify-content: space-around;
+  width: 500px;
 }
 
 nav a {
